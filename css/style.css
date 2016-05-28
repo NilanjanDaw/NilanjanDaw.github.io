@@ -34,15 +34,16 @@ h5{
 p{
 	font-family: 'Open Sans', sans-serif;
 }
-p.intro{
+p.intro {
 	font-size: 16px;
 	margin: 12px 0 0;
 	line-height: 24px;
 	font-family: 'Open Sans', sans-serif;
 }
-a{ color: #FCAC45;}
+a { text-decoration: none;
+    color: #fff;}
 a:hover,
-a:focus{
+a:focus {
 	text-decoration: none;
 	color: #FCAC45;
 }
@@ -270,7 +271,7 @@ img.img-circle.education-img {
 	opacity: 1;
 	background: #FCAC45;
 }
-.owl-theme .owl-controls .owl-page.active span{
+.owl-theme .owl-controls .owl-page.active span {
 	background: #FCAC45;
 }
 
@@ -512,6 +513,37 @@ label {
 	-webkit-box-shadow: transparent;
 	box-shadow: transparent;
 }
+
+.button-link {
+    border: 5px solid #FCAC45;
+    color: white;
+    width: 200px;
+    
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 20px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #FCAC45;
+    font-weight: bold;
+}
+
+.button2:hover {
+    background-color: #FCAC45;
+    color: white;
+}
+
+
 
 button.btn.tf-btn.btn-default {
 	float: right;
