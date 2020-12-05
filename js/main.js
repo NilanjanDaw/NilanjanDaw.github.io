@@ -9,6 +9,24 @@ function main() {
 (function () {
    'use strict';
 
+  var options = {
+    strings: ['Explore. Dream. <strong><span class="color">Discover.</span></strong>'],
+    typeSpeed: 40,
+    showCursor: false,
+    onComplete: function(self) {
+      var options = {
+        strings: ['Words that <strong>motivate</strong> me^500 through this maze of <strong>life.</strong>'],
+        typeSpeed: 10,
+        showCursor: true, 
+      };
+
+      var _ = new Typed('.lead', options);
+    }
+  };
+
+  new Typed('.heading', options)
+
+
    /* ==============================================
   	Testimonial Slider
   	=============================================== */ 
